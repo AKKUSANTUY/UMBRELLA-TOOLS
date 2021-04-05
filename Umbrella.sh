@@ -36,13 +36,15 @@ clear
 echo $yellow ">>>Loading Cuk......."
 sleep 1
 clear
-
+echo
+echo
 sleep 1
 echo $green " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
 echo $yellow "==================================================="
 figlet " UMBRELLA "
 echo $yellow "==================================================="
 sleep 1
+echo
 echo $red " [!]=========================================[!] "
 sleep 1
 echo $green "  | Penulis   : Santri-Cyber-Santuy           |"
