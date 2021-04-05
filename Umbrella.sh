@@ -40,7 +40,7 @@ clear
 sleep 1
 echo $green " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
 echo $yellow "==================================================="
-figlet $cyan " UMBRELLA "
+figlet " UMBRELLA "
 echo $yellow "==================================================="
 sleep 1
 echo $red " [!]=========================================[!] "
@@ -56,8 +56,8 @@ sleep 1
 echo $red " [!]=========================================[!]"
 echo
 sleep 2
-echo $yellow "<<MENU TOOLS CUK>>"
-echo $cyan "1.Hammer"
+echo $yellow "     <<MENU TOOLS CUK>>"
+echo $cyan"1.Hammer"
 echo "2.Sqlmap"
 echo "3.IP-Tracer"
 echo "4.Ngrok"
@@ -79,7 +79,7 @@ echo "19.Downlaod Anonhackbar"
 echo "20.Download Droidsqli"
 echo "21.Install Module"
 echo "22.Termux Button"
-echo $red "00.Exit Cuk"
+echo $red"00.Exit Cuk"
 sleep 1
 read -p "PILIH TOOLS NYA CUK >> " b
 
