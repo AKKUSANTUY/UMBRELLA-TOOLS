@@ -1,15 +1,39 @@
-#!/bin/bash
+#!/system/xbin/bash
 #Not recode!
 #Please just learn:)
+#gwe bilang lu mampu nga bos jan recode mulu cuk
+#Jangan Lupa Istighfar Kita Semua Pendosa Cuk
+#WhatsApp  : 082134566596
+#Instagram : Akku_Santuy
 
-# warna
-r="\033[1;31m" # merah
-g="\033[1;32m" # hijau
-y="\033[1;33m" # kuning
-b="\033[1;34m" # biru
-p="\033[1;35m" # ungu
-cy="\033[1;36m" # biru muda
-w="\033[1;37m" # putih
+blue='\033[34;1m'
+green='\033[32;1m'                                        
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'                                           
+yellow='\033[33;1m'
+
+echo $blue "Loading Cuk."
+sleep 1
+clear
+echo $green ">>>Loading Cuk.."
+sleep 1
+clear
+echo $yellow ">>>Loading Cuk..."
+sleep 1
+clear
+echo $purple ">>>Loading Cuk...."
+sleep 1
+clear
+echo $blue ">>>Loading Cuk....."
+sleep 1
+clear
+echo $green ">>>Loading Cuk......"
+sleep 1
+clear
+echo $yellow ">>>Loading Cuk......."
+sleep 1
 clear
 
 echo "
@@ -23,14 +47,14 @@ ___ ____ ____ _    ____
            -=[[Menu]]=-
 "
 sleep 1
-echo  $ cy
-figlet " Alat SCS "
-echo  $ r " ============================================ "
-echo  $ w " = Penulis " $ r "    : " $ w " Santri-Cyber-Santuy = "
-echo  $ w " = Instagram " $ r " : " $ w " Akku_Santuy = "
-echo  $ w " = Github " $ r "    : " $ w " https://github.com/AKKUSANTUY= "
-echo  $ w " = WhatsApp " $ r " : " $ w " +62821-3456-6596 = "
-echo  $ r " ============================================ "
+echo " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
+figlet " UMBRELLA "
+echo " [!]=========================================[!] "
+echo "  | Penulis   : Santri-Cyber-Santuy           |"
+echo "  | Instagram : Akku_Santuy                   | "
+echo "  | Github    : https://github.com/AKKUSANTUY |"
+echo "  | WhatsApp  : +62821-3456-6596              | "
+echo " [!]=========================================[!]"
 sleep 2
 echo "1.Hammer"
 echo "2.Sqlmap"
