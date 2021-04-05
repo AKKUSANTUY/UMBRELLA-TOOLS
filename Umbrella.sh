@@ -14,6 +14,7 @@ red='\033[31;1m'
 white='\033[37;1m'                                           
 yellow='\033[33;1m'
 
+clear
 echo $blue "Loading Cuk."
 sleep 1
 clear
@@ -37,16 +38,25 @@ sleep 1
 clear
 
 sleep 1
-echo $blue " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
-figlet " UMBRELLA "
+echo $green " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
+echo $yellow "==================================================="
+figlet $cyan " UMBRELLA "
+echo $yellow "==================================================="
+sleep 1
 echo $red " [!]=========================================[!] "
+sleep 1
 echo $green "  | Penulis   : Santri-Cyber-Santuy           |"
+sleep 1
 echo $yellow "  | Instagram : Akku_Santuy                   | "
+sleep 1
 echo $purple "  | Github    : https://github.com/AKKUSANTUY |"
+sleep 1
 echo $blue "  | WhatsApp  : +62821-3456-6596              | "
+sleep 1
 echo $red " [!]=========================================[!]"
 echo
 sleep 2
+echo $yellow "<<MENU TOOLS CUK>>"
 echo $cyan "1.Hammer"
 echo "2.Sqlmap"
 echo "3.IP-Tracer"
@@ -69,9 +79,9 @@ echo "19.Downlaod Anonhackbar"
 echo "20.Download Droidsqli"
 echo "21.Install Module"
 echo "22.Termux Button"
-echo "00.Exit"
+echo $red "00.Exit Cuk"
 sleep 1
-read -p $red "Your Choice Cuk > " b
+read -p "PILIH TOOLS NYA CUK >> " b
 
 if [ $b = 1 ]
 then
