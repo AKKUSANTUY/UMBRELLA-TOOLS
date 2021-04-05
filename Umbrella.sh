@@ -36,27 +36,18 @@ echo $yellow ">>>Loading Cuk......."
 sleep 1
 clear
 
-echo "
-_  _ _  _ ___  ____ ____ _    ____
-|  | |\/| |__] |__/ |___ |    |__|
-|__| |  | |__] |  \ |___ |___ |  |
-___ ____ ____ _    ____
- |  |  | |  | |    [__ Dont Recode Cuk!
- |  |__| |__| |___ ___]:)
-
-           -=[[Menu]]=-
-"
 sleep 1
-echo " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
+echo $blue " [!] Merendah Samapai Tidak Ada Yang Merendahkan [!] "
 figlet " UMBRELLA "
-echo " [!]=========================================[!] "
-echo "  | Penulis   : Santri-Cyber-Santuy           |"
-echo "  | Instagram : Akku_Santuy                   | "
-echo "  | Github    : https://github.com/AKKUSANTUY |"
-echo "  | WhatsApp  : +62821-3456-6596              | "
-echo " [!]=========================================[!]"
+echo $red " [!]=========================================[!] "
+echo $green "  | Penulis   : Santri-Cyber-Santuy           |"
+echo $yellow "  | Instagram : Akku_Santuy                   | "
+echo $purple "  | Github    : https://github.com/AKKUSANTUY |"
+echo $blue "  | WhatsApp  : +62821-3456-6596              | "
+echo $red " [!]=========================================[!]"
+echo
 sleep 2
-echo "1.Hammer"
+echo $cyan "1.Hammer"
 echo "2.Sqlmap"
 echo "3.IP-Tracer"
 echo "4.Ngrok"
@@ -80,7 +71,7 @@ echo "21.Install Module"
 echo "22.Termux Button"
 echo "00.Exit"
 sleep 1
-read -p "Your Choice Cuk > " b
+read -p $red "Your Choice Cuk > " b
 
 if [ $b = 1 ]
 then
